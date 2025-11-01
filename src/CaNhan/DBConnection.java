@@ -1,0 +1,38 @@
+package CaNhan;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class DBConnection {
+    // Thông tin kết nối đến MySQL
+    private static final String DB_URL = "jdbc:mysql://localhost:3306/order"; // đổi "test" thành tên database của bạn
+    private static final String USER_NAME = "root";
+    private static final String PASSWORD = "admin";
+
+    // Hàm trả về đối tượng Connection
+    public static Connection getConnection() {
+        Connection conn = null;
+        try {
+            // Nạp driver JDBC cho MySQL
+            Class.forName("com.mysql.cj.jdbc.Driver");
+
+            // Tạo kết nối
+            conn = DriverManager.getConnection(DB_URL, USER_NAME, PASSWORD);
+            System.out.println("✅ Kết nối MySQL thành công!");
+        } catch (Exception e) {
+            System.out.println("❌ Kết nối MySQL thất bại!");
+            e.printStackTrace();
+        }
+        return conn;
+    }
+
+    // Hàm main để test kết nối
+    public static void main(String[] args) {
+        Connection c = DBConnection.getConnection();
+        if (c != null) {
+            System.out.println("✅ Đã kết nối và sẵn sàng thao tác DB!");
+        } else {
+            System.out.println("⚠️ Không thể kết nối CSDL.");
+        }
+    }
+}

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="mysql">
+        <CLASSES>
+          <root url="file://$USER_HOME$" />
+          <root url="file://$USER_HOME$/Desktop/2025/Ki 2_nam 1/Oop/mysql-connector-j-9.5.0" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/.vscode/extensions/vscjava.vscode-java-dependency-0.25.2025092303/templates/invisible-project/src" />
+          <root url="file://$USER_HOME$/.vscode/extensions/vscjava.vscode-java-dependency-0.26.1/templates/invisible-project/src" />
+          <root url="file://$USER_HOME$/.vscode/extensions/vscjava.vscode-maven-0.44.0/resources/maven-wrapper/.mvn/wrapper" />
+          <root url="file://$USER_HOME$/AppData/Roaming/Code/User/History/-58af9771" />
+          <root url="file://$USER_HOME$/AppData/Roaming/Code/User/History/-7791c30e" />
+          <root url="file://$USER_HOME$/AppData/Roaming/Code/User/History/-7ba97d97" />
+          <root url="file://$USER_HOME$/AppData/Roaming/Code/User/History/1f153af3" />
+          <root url="file://$USER_HOME$/AppData/Roaming/Code/User/History/25dd8a8a" />
+          <root url="file://$USER_HOME$/AppData/Roaming/Code/User/History/3d072b14" />
+          <root url="file://$USER_HOME$/AppData/Roaming/Code/User/History/5567cbd9" />
+          <root url="file://$USER_HOME$/Desktop/2025/Ki 2_nam 1/Oop" />
+          <root url="file://$USER_HOME$/Desktop/2025/Ki 2_nam 1/Oop/JDBC" />
+          <root url="file://$USER_HOME$/Desktop/2025/Ki 2_nam 1/Oop/nhanvien" />
+          <root url="file://$USER_HOME$/Desktop/2025/Ki 2_nam 1/Oop/nhanvien_0910" />
+          <root url="file://$USER_HOME$/Desktop/2025/Ki 2_nam 1/Oop/oop-master/oop-master" />
+          <root url="file://$USER_HOME$/Desktop/2025/Ki 2_nam 1/Oop/oop-master/oop-master/O1011/src" />
+          <root url="file://$USER_HOME$/Desktop/2025/Ki 2_nam 1/Oop/oop-master/oop-master/O2001/src" />
+          <root url="file://$USER_HOME$/Desktop/2025/Ki 2_nam 1/Oop/oop-master/oop-master/O2002/src" />
+          <root url="file://$USER_HOME$/Desktop/2025/Ki 2_nam 1/Oop/oop-master/oop-master/hdt/src" />
+          <root url="file://$USER_HOME$/Desktop/2025/Ki 2_nam 1/Oop/phanso" />
+          <root url="file://$USER_HOME$/Desktop/JAVA/laptrinhcoban/src" />
+          <root url="file://$USER_HOME$/Desktop/PYTHON/Selenium.pa" />
+          <root url="file://$USER_HOME$/Documents/NetBeansProjects/B0910/src/main/java" />
+          <root url="file://$USER_HOME$/Documents/NetBeansProjects/BTCN/src" />
+          <root url="file://$USER_HOME$/Documents/NetBeansProjects/JavaApplication3/src" />
+          <root url="file://$USER_HOME$/Documents/NetBeansProjects/helloJava/src" />
+          <root url="file://$USER_HOME$/Documents/NetBeansProjects/nhanvien1/src" />
+          <root url="file://$USER_HOME$/Downloads" />
+          <root url="file://$USER_HOME$/IdeaProjects/AutomationTest/src/main/java" />
+          <root url="file://$USER_HOME$/eclipse-workspace/Luong/src" />
+          <root url="file://$USER_HOME$/Desktop/2025/Ki 2_nam 1/Oop/mysql-connector-j-9.5.0/src/build/java" />
+          <root url="file://$USER_HOME$/Desktop/2025/Ki 2_nam 1/Oop/mysql-connector-j-9.5.0/src/demo/java" />
+          <root url="file://$USER_HOME$/Desktop/2025/Ki 2_nam 1/Oop/mysql-connector-j-9.5.0/src/generated/java" />
+          <root url="file://$USER_HOME$/Desktop/2025/Ki 2_nam 1/Oop/mysql-connector-j-9.5.0/src/legacy/java" />
+          <root url="file://$USER_HOME$/Desktop/2025/Ki 2_nam 1/Oop/mysql-connector-j-9.5.0/src/main/core-api/java" />
+          <root url="file://$USER_HOME$/Desktop/2025/Ki 2_nam 1/Oop/mysql-connector-j-9.5.0/src/main/core-impl/java" />
+          <root url="file://$USER_HOME$/Desktop/2025/Ki 2_nam 1/Oop/mysql-connector-j-9.5.0/src/main/protocol-impl/java" />
+          <root url="file://$USER_HOME$/Desktop/2025/Ki 2_nam 1/Oop/mysql-connector-j-9.5.0/src/main/user-api/java" />
+          <root url="file://$USER_HOME$/Desktop/2025/Ki 2_nam 1/Oop/mysql-connector-j-9.5.0/src/main/user-impl/java" />
+          <root url="file://$USER_HOME$/Desktop/2025/Ki 2_nam 1/Oop/mysql-connector-j-9.5.0/src/test/java" />
+        </SOURCES>
+        <jarDirectory url="file://$USER_HOME$/Desktop/2025/Ki 2_nam 1/Oop/mysql-connector-j-9.5.0" recursive="false" />
+      </library>
+    </orderEntry>
+  </component>
+</module>
