@@ -147,11 +147,11 @@ public class FE extends JFrame {
                 Product p = new Product(id, name, producer, price, Date.valueOf(dateText));
 
                 if (be.updateProduct(p)) {
-                    JOptionPane.showMessageDialog(this, "Update Successfully");
+                    JOptionPane.showMessageDialog(this, "Update Successfully!");
                     loadData();
                     clearFields();
                 } else {
-                    JOptionPane.showMessageDialog(this, "Update False");
+                    JOptionPane.showMessageDialog(this, "Update False!");
                 }
             } catch (Exception ex) {
                 JOptionPane.showMessageDialog(this, "Error: " + ex.getMessage());
