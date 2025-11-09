@@ -59,5 +59,14 @@
         <jarDirectory url="file://$USER_HOME$/Desktop/2025/Ki 2_nam 1/Oop/mysql-connector-j-9.5.0" recursive="false" />
       </library>
     </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/sqlite-jdbc-3.43.0.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>

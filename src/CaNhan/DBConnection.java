@@ -5,22 +5,20 @@ import java.sql.DriverManager;
 
 public class DBConnection {
     // Thông tin kết nối đến MySQL
-    private static final String DB_URL = "jdbc:mysql://localhost:3306/order"; // đổi "test" thành tên database của bạn
-    private static final String USER_NAME = "root";
-    private static final String PASSWORD = "admin";
+    private static final String DB_URL = "jdbc:sqlite:D:/Project/BTCN/src/CaNhan/db/order.db"; // đổi "test" thành tên database của bạn
 
     // Hàm trả về đối tượng Connection
     public static Connection getConnection() {
         Connection conn = null;
         try {
             // Nạp driver JDBC cho MySQL
-            Class.forName("com.mysql.cj.jdbc.Driver");
+            Class.forName("org.sqlite.JDBC");
 
             // Tạo kết nối
-            conn = DriverManager.getConnection(DB_URL, USER_NAME, PASSWORD);
-            System.out.println("✅ Kết nối MySQL thành công!");
+            conn = DriverManager.getConnection(DB_URL);
+            System.out.println("Kết nối SQlite thành công!");
         } catch (Exception e) {
-            System.out.println("❌ Kết nối MySQL thất bại!");
+            System.out.println("Kết nối SQlite thất bại!");
             e.printStackTrace();
         }
         return conn;
@@ -30,9 +28,9 @@ public class DBConnection {
     public static void main(String[] args) {
         Connection c = DBConnection.getConnection();
         if (c != null) {
-            System.out.println("✅ Đã kết nối và sẵn sàng thao tác DB!");
+            System.out.println("Đã kết nối và sẵn sàng thao tác DB!");
         } else {
-            System.out.println("⚠️ Không thể kết nối CSDL.");
+            System.out.println("Không thể kết nối CSDL.");
         }
     }
 }
