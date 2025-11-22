@@ -1,5 +1,3 @@
-package CaNhan;
-
 import java.sql.Date;
 
 public class Product {

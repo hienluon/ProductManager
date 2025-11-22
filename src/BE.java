@@ -1,5 +1,3 @@
-package CaNhan;
-
 import java.sql.*;
 import java.util.*;
 
@@ -22,7 +20,7 @@ public class BE {
                         rs.getString("name"),
                         rs.getString("producer"),
                         rs.getDouble("price"),
-                        rs.getDate("created_date")
+                        new java.sql.Date(rs.getLong("created_date"))
                 );
                 list.add(p);
             }
@@ -41,7 +39,7 @@ public class BE {
             pst.setString(1, p.getName());
             pst.setString(2, p.getProducer());
             pst.setDouble(3, p.getPrice());
-            pst.setDate(4, p.getCreated_date());
+            pst.setLong(4, p.getCreated_date().getTime());
             return pst.executeUpdate() > 0;// biêur thưc kiểm tra có ít nhất 1 dòng bị ảnh hưởng ko, có --> thành công
         } catch (SQLException e) {
             e.printStackTrace();
@@ -56,7 +54,7 @@ public class BE {
             pst.setString(1, p.getName());
             pst.setString(2, p.getProducer());
             pst.setDouble(3, p.getPrice());
-            pst.setDate(4, p.getCreated_date());
+            pst.setLong(4, p.getCreated_date().getTime());
             pst.setInt(5, p.getId());
             return pst.executeUpdate() > 0;
         } catch (SQLException e) {
@@ -90,7 +88,7 @@ public class BE {
                         rs.getString("name"),
                         rs.getString("producer"),
                         rs.getDouble("price"),
-                        rs.getDate("created_date")
+                        new java.sql.Date(rs.getLong("created_date"))
                 );
                 list.add(p);
             }

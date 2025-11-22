@@ -1,5 +1,3 @@
-package CaNhan;
-
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
@@ -39,7 +37,7 @@ public class FE extends JFrame {
         add(inputPanel, BorderLayout.NORTH);
 
         // Bảng dữ liệu
-        model = new DefaultTableModel(new Object[]{"ID", "Name", "Producer", "Price", "Created Date"}, 0) {
+        model = new DefaultTableModel(new Object[]{"ID", "Name", "Producer", "Price (USD)", "Created Date"}, 0) {
             @Override
             public boolean isCellEditable(int row, int column) {
                 return false; // Không cho sửa bất kỳ ô nào owr table

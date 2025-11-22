@@ -1,12 +1,9 @@
-package CaNhan;
-
 import java.sql.Connection;
 import java.sql.DriverManager;
 
 public class DBConnection {
     // Thông tin kết nối đến MySQL
-    private static final String DB_URL = "jdbc:sqlite:D:/Project/BTCN/src/CaNhan/db/order.db"; // đổi "test" thành tên database của bạn
-
+    private static final String DB_URL = "jdbc:sqlite:D:/Project/BTCN/src/db/order.db"; // đổi "test" thành tên database của bạn
     // Hàm trả về đối tượng Connection
     public static Connection getConnection() {
         Connection conn = null;
